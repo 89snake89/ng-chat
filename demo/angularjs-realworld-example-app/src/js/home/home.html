@@ -74,6 +74,8 @@
         </div>
       </div>
 
+      <ng-chat [adapter]="adapter" [userId]="999" [historyEnabled]="true" [historyPageSize]="4" [hideFriendsList]="false" (onMessagesSeen)="messageSeen($event)"></ng-chat>
+
       <!-- End the row & container divs -->
     </div>
   </div>

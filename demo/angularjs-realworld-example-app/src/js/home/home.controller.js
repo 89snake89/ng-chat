@@ -1,5 +1,5 @@
 class HomeCtrl {
-  constructor(User, Tags, AppConstants, $scope) {
+  constructor(User, Tags, AppConstants, $scope, ngChat) {
     'ngInject';
 
     this.appName = AppConstants.appName;
